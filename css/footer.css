@@ -1,0 +1,10 @@
+.footer {
+  background: #1f2228;
+  padding: 30px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
