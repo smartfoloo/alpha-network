@@ -29,6 +29,7 @@
   transition: all 300ms;
   margin: 10px;
   cursor: pointer;
+  text-overflow: ellipsis;
 }
 
 .card:hover {
@@ -41,4 +42,17 @@
 
 .card .fa-robot {
   font-size: 90px;
+}
+
+.card img {
+  width: 110px;
+  height: 110px;
+}
+
+a {
+  color: #fff;
+}
+
+.link-box h5 {
+  margin: 20px 0px;
 }
