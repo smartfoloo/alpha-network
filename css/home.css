@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 50px 0px;
 }
 
 .card {
@@ -51,6 +52,10 @@
 
 a {
   color: #fff;
+}
+
+.link-box {
+  margin: 50px 0px;
 }
 
 .link-box h5 {
