@@ -1,10 +1,72 @@
 .footer {
   background: #1f2228;
   padding: 30px;
+  text-align: center;
 }
 
-.footer ul {
+.footer-links {
   display: flex;
   flex-direction: column;
   line-height: 2;
+  list-style-type: none;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.social-icons .fa-brands {
+  font-size: 1.8em;
+}
+
+.social-icons li {
+  width: 50px;
+}
+
+.social-icons .fa-brands {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa-brands {
+  border-radius: 50%;
+}
+
+.social-icons.icon-rounded .fa-brands {
+  border-radius: 5px;
+}
+
+.social-icons.icon-rotate .fa-brands:hover,
+.social-icons.icon-rotate .fa:active {
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
+}
+
+
+.social-icons .fa-discord {
+  background-color: #404eed;
+}
+
+.social-icons .fa-youtube {
+  background-color: #ff0000;
+}
+
+.social-icons .fa-tiktok {
+  background-color: #000;
 }
